@@ -2,14 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  background-color: #191919;
-}
-
-.box {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  background-color: #191919;
+  background-color: black;
 }
 
 body {
@@ -44,4 +37,47 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.container .fc {
+  color: white;
+}
+.container .roww {
+  width: 270px;
+}
+
+.mt-5 {
+  color: white;
+}
+
+.three {
+  display: flex;
+}
+.three .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.container .rounded-3 {
+  background-color: black;
+  position: relative;
+}
+.container .rounded-3 .col-4 {
+  background-color: black;
+}
+.container .rounded-3 .col-8 .bg-dark {
+  margin-left: -40px;
+}
+
+.col-8 .btn-dark {
+  width: 50px;
+}
+.col-8 .mt-5 {
+  width: 400px;
+}
+
+.container .rows {
+  display: flex;
+  gap: 50px;
 }/*# sourceMappingURL=style.css.map */

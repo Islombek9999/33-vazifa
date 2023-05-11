@@ -3,17 +3,11 @@
     padding: 0px;
     box-sizing: border-box;
     
-    background-color: #191919;
+    background-color: black;
     
     
 }
-.box{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    background-color: #191919;
 
-}
 body{
     height: 100vh;
     width: 100%;
@@ -51,4 +45,50 @@ body{
         align-items: center;
         justify-content: center;
     }
+    .fc{
+        color: white;
+    }
+    .roww{
+        width: 270px;
+    }
 }
+.mt-5{
+    color: white;
+}
+.three{
+    display: flex;
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 40px;
+    }
+}
+.container .rounded-3{
+    background-color: black;
+    position: relative;
+    .col-4{
+        background-color: black;
+        
+        }
+    .col-8 .bg-dark{
+        margin-left: -40px;
+
+    }
+    
+}.col-8{
+    .btn-dark{
+        width: 50px;
+    }
+    .mt-5{
+        width: 400px;
+    }
+}
+.container{
+    .rows{
+        display: flex;
+        gap: 50px;
+       
+    }
+}
+    
